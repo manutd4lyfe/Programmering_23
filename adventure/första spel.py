@@ -3,7 +3,8 @@ description = "big room with a chandeler hanging from the roof, and paintings al
 doors = ["north", "south", "east", "west"]
 
 # Welcome screen
-print("Hej och välkommen till Jimmys Berlin textäventyr")
+print("Hej och välkommen till Arins textäventyr")
+print("This game will blow your mind away")
 print("************************************************")
 print()
 
