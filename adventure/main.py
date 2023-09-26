@@ -1,8 +1,8 @@
 import random
 
-# Function to generate a random number between 1 and 10
+# Function to generate a random number between 1 and 15
 def generate_random_number():
-    return random.randint(1, 10)
+    return random.randint(1, 15)
 
 # List to store previous guesses
 previous_guesses = []
@@ -33,6 +33,6 @@ while True:
         print("Previous guesses:", previous_guesses)
 
     except ValueError:
-        print("Invalid input. Please enter an integer between 1 and 10.")
+        print("Invalid input. Please enter an integer between 1 and 15.")
 
 print("Thank you for playing!")
