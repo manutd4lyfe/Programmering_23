@@ -1,4 +1,6 @@
- `**Programing Iot 2023**`
+ `**Programming Iot 2023**`
+
+
 # Guessing Game
 
 ## How to Play
@@ -7,7 +9,7 @@
 
 2. Enter your guess when prompted.
 
-3. Get immediate feedback on whether your guess is too high or too low.
+3. Get feedback on whether your guess is too high or too low.
 
 4. Keep guessing until you correctly guess the random number.
 
