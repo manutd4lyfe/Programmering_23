@@ -1,29 +1,11 @@
  `**Programing Iot 2023**`
-# Mystical Adventure
+# Guessing Game
 
-Embark on a text-based journey through magical realms, encounter mythical creatures, and collect enchanted artifacts.
+Welcome to the Guessing Game, a simple Python game where you can test your guessing skills by trying to guess a random number between 1 and 10.
 
-## Getting Started
+## How to Play
 
-1. **Clone the Repository:** Clone this repository to your computer.
-2. **Requirements:** Ensure you have Python 3 installed.
-3. **Launch the Game:** Run the script 
+1. Run the Python script `guessing_game.py`.
 
-## Gameplay
-
-- **Realm Exploration:** Start in mystical realms.
-- **Magical Encounters:** Meet Wise Elves, Fierce Dragons, and Enigmatic Water Elementals.
-- **Decision Making:** Interact, solve riddles, or trade for enchanted items.
-- **Random Mystical Events:** Encounter surprises for variety.
-
-## Features
-
-- **Fantasy Setting:** Immerse yourself in a magical world.
-- **Interactive Encounters:** Engage in conversations and make choices.
-- **Artifact Collection:** Gather mystical items to aid your quest.
-- **Random Adventures:** Each playthrough is unique.
-
-## Contributing
-
-You can contribute by submitting pull requests or reporting issues to improve the game.
-
+   ```shell
+   python guessing_game.py
