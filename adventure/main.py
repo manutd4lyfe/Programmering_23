@@ -11,7 +11,7 @@ previous_guesses = []
 random_number = generate_random_number()
 
 print("Welcome to the Guessing Game!")
-print("I have chosen a number between 1 and 10. Can you guess what it is?")
+print("I have chosen a number between 1 and 15. Can you guess what it is?")
 
 # Main game loop
 while True:
