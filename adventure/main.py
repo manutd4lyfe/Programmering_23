@@ -1,38 +1,26 @@
-import random
+class Patient:
+    def __init__(self, namn, symtom):
+        self.namn = namn
+        self.symtom = symtom
+        self.behandlad = False
 
-# Function to generate a random number between 1 and 15
-def generate_random_number():
-    return random.randint(1, 15)
+    def undersök(self):
+        print(f"{self.namn} undersöks för {self.symtom}.")
 
-# List to store previous guesses
-previous_guesses = []
+    def behandla(self):
+        print(f"{self.namn} behandlas för {self.symtom}.")
+        self.behandlad = True
 
-# Generate a random number
-random_number = generate_random_number()
+# Testkod för att köra sjukhussimulationen
+if __name__ == "__main__":
+    patient1 = Patient("Anna", "feber")
+    patient2 = Patient("Bengt", "hosta")
+    patient3 = Patient("Caroline", "magsmärta")
 
-print("Welcome to the Guessing Game!")
-print("I have chosen a number between 1 and 15. Can you guess what it is?")
+    patienter = [patient1, patient2, patient3]
 
-# Main game loop
-while True:
-    try:
-        guess = int(input("Your guess: "))
-
-        # Add the guess to the list of previous guesses
-        previous_guesses.append(guess)
-
-        if guess < random_number:
-            print("Too low! Try again.")
-        elif guess > random_number:
-            print("Too high! Try again.")
-        else:
-            print(f"Congratulations! You guessed the correct number ({random_number})!")
-            break  # Exit the game
-
-        # Show previous guesses
-        print("Previous guesses:", previous_guesses)
-
-    except ValueError:
-        print("Invalid input. Please enter an integer between 1 and 15.")
-
-print("Thank you for playing!")
+    for patient in patienter:
+        patient.undersök()
+        patient.behandla()
+        if patient.behandlad:
+            print(f"{patient.namn} är färdigbehandlad.")
